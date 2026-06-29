@@ -39,13 +39,48 @@
   </section>
 </div>
 
+<div id="assistantWidget" class="assistant-widget" style="display:block;position:fixed;right:20px;bottom:20px;z-index:99999;">
+  <button id="assistantToggle" class="assistant-toggle" type="button" style="display:block;">🤖 Assistant</button>
+  <div id="assistantPanel" class="assistant-panel" style="display:block;">
+    <div class="assistant-header">
+      <div>
+        <h3>AI Assistant</h3>
+        <p>Ask for a service and I’ll help you find it</p>
+      </div>
+      <button id="assistantClose" class="assistant-close" type="button">×</button>
+    </div>
+    <div id="assistantMessages" class="assistant-messages"></div>
+    <form id="assistantForm" class="assistant-form">
+      <input id="assistantInput" type="text" placeholder="Try: Aadhaar, PAN, loan, scholarship..." autocomplete="off">
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</div>
+
 <script src="script.js"></script>
 
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('./sw.js')
-      .then(reg => console.log('Service Worker registered successfully:', reg))
+      .then(reg => {
+        console.log('Service Worker registered successfully:', reg);
+
+        if (reg.waiting) {
+          reg.waiting.postMessage({ type: 'SKIP_WAITING' });
+        }
+
+        reg.addEventListener('updatefound', () => {
+          const newWorker = reg.installing;
+          if (!newWorker) return;
+
+          newWorker.addEventListener('statechange', () => {
+            if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+              window.location.reload();
+            }
+          });
+        });
+      })
       .catch(err => console.log('Service Worker registration failed:', err));
   });
 }
