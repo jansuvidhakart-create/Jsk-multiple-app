@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "New Service Added",
+    "message": "AI Assistant and Health Checkup are now available.",
+    "date": "2026-07-01"
+  },
+  {
+    "id": 2,
+    "title": "Offline Ready",
+    "message": "Landing pages can now load while offline.",
+    "date": "2026-06-30"
+  }
+]

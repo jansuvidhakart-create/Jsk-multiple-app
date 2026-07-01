@@ -1,0 +1,15 @@
+
+/* sidebar.css - Category drawer and quick access panel */
+.sidebar {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.sidebar-card {
+    padding: 1rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    background: var(--surface-alt);
+    box-shadow: var(--shadow);
+}

@@ -1,0 +1,25 @@
+
+/* search.css - Search input styling for app and page search */
+.search-input {
+    width: 100%;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    padding: 0.95rem 1rem;
+    font-size: 1rem;
+    background: var(--surface-alt);
+    color: var(--text-primary);
+    outline: none;
+    transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+.search-input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 4px rgba(59,130,246,0.08);
+}
+
+.search-hint {
+    display: block;
+    margin-top: 0.5rem;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Digital Services Super App",
+    "subtitle": "One place for government, banking, education, health and utility services.",
+    "badge": "Launch"
+  },
+  {
+    "id": 2,
+    "title": "Secure and Accessible",
+    "subtitle": "Mobile-first design with offline-ready PWA support.",
+    "badge": "Secure"
+  }
+]

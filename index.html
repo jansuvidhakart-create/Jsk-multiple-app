@@ -1,90 +1,56 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-
-<title>Jansuvidhakart</title>
-
-<link rel="stylesheet" href="style.css">
-<link rel="manifest" href="manifest.json">
-
-<meta name="theme-color" content="#2563eb">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Jansuvidhakart">
-<link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>JansuvidhaKart Digital Hub</title>
+    <meta name="description" content="A Progressive Web App to access government, banking, education, health and digital services.">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="stylesheet" href="./css/home.css">
+    <meta name="theme-color" content="#1565c0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="JansuvidhaKart Digital Hub">
+    <link rel="apple-touch-icon" href="./assets/icons/icon-192.svg">
 </head>
-
-<body>
-
-<div id="appShell" class="app-shell">
-  <header class="header">
-    <div class="header-top">
-      <div class="logo">Jansuvidhakart</div>
+<body class="theme-light">
+    <div class="app-shell">
+        <header class="header">
+            <div class="header-inner">
+                <div class="brand">JansuvidhaKart</div>
+                <button class="theme-toggle" type="button" onclick="window.location.reload();">Refresh</button>
+            </div>
+        </header>
+        <main class="main-content">
+            <section class="section page-header">
+                <div>
+                    <h1>JansuvidhaKart Digital Hub</h1>
+                    <p class="search-hint">Explore government services, banking, education, health, agriculture, travel and more from one responsive PWA.</p>
+                </div>
+            </section>
+            <section class="section">
+                <input id="searchInput" class="search-input" type="search" placeholder="Search services, categories or tools..." autocomplete="off">
+                <p class="search-hint">Use keywords like Aadhaar, loan, scholarship, health or recharge.</p>
+            </section>
+            <section class="section">
+                <div class="category-grid" id="categoryGrid"></div>
+            </section>
+            <section class="section">
+                <h2>Featured Services</h2>
+                <div id="searchResults" class="card-grid"></div>
+            </section>
+        </main>
+        <nav class="bottom-nav">
+            <button data-nav="home">Home</button>
+            <button data-nav="favorites">Favorites</button>
+            <button data-nav="recent">Recent</button>
+            <button data-nav="settings">Settings</button>
+        </nav>
+        <footer class="footer">
+            <p>Digital services hub built as a lightweight PWA with clean folder architecture.</p>
+        </footer>
     </div>
-    <input type="text" id="search" placeholder="Search apps...">
-  </header>
-
-  <div id="categories"></div>
-
-  <section class="section">
-    <h2>Featured Apps</h2>
-    <div id="featuredApps" class="featured"></div>
-  </section>
-
-  <section class="section">
-    <h2>All Apps</h2>
-    <div id="appContainer"></div>
-  </section>
-</div>
-
-<div id="assistantWidget" class="assistant-widget" style="display:block;position:fixed;right:20px;bottom:20px;z-index:99999;">
-  <button id="assistantToggle" class="assistant-toggle" type="button" style="display:block;">🤖 Assistant</button>
-  <div id="assistantPanel" class="assistant-panel" style="display:block;">
-    <div class="assistant-header">
-      <div>
-        <h3>AI Assistant</h3>
-        <p>Ask for a service and I’ll help you find it</p>
-      </div>
-      <button id="assistantClose" class="assistant-close" type="button">×</button>
-    </div>
-    <div id="assistantMessages" class="assistant-messages"></div>
-    <form id="assistantForm" class="assistant-form">
-      <input id="assistantInput" type="text" placeholder="Try: Aadhaar, PAN, loan, scholarship..." autocomplete="off">
-      <button type="submit">Send</button>
-    </form>
-  </div>
-</div>
-
-<script src="script.js"></script>
-
-<script>
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./sw.js')
-      .then(reg => {
-        console.log('Service Worker registered successfully:', reg);
-
-        if (reg.waiting) {
-          reg.waiting.postMessage({ type: 'SKIP_WAITING' });
-        }
-
-        reg.addEventListener('updatefound', () => {
-          const newWorker = reg.installing;
-          if (!newWorker) return;
-
-          newWorker.addEventListener('statechange', () => {
-            if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-              window.location.reload();
-            }
-          });
-        });
-      })
-      .catch(err => console.log('Service Worker registration failed:', err));
-  });
-}
-</script>
-
+    <script type="module" src="./js/app.js"></script>
 </body>
 </html>

@@ -1,33 +1,29 @@
-# Jsk-multiple-app
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>JSK Multi Web App</title>
 
-        <link rel="manifest" href="manifest.json">
-          <link rel="stylesheet" href="style.css">
+# JansuvidhaKart Digital Hub
 
-            <meta name="theme-color" content="#2563eb">
-            </head>
+A clean Progressive Web App scaffold for a digital services super app that provides access to government services, banking, education, health, agriculture, utilities, AI tools, business services, travel, jobs, documentation, recharge, and finance.
 
-            <body>
+## Project structure
+- `index.html`: Primary app shell and landing page.
+- `manifest.json`: PWA metadata for installable behavior.
+- `sw.js`: Service worker for offline caching and asset delivery.
+- `css/`: Modular CSS files for mobile-first responsive design.
+- `js/`: ES6 modules for app startup, search, navigation, theme, offline handling, and utilities.
+- `data/`: Sample JSON data for apps, categories, banners, featured content, updates, and app settings.
+- `pages/`: Independent HTML pages for app routes and informational content.
+- `assets/`: Placeholder folders for icons, banners, logos, images, fonts, and animations.
+- `docs/README.md`: Detailed documentation of folder purpose and architecture.
 
-            <header class="header">
-              <h1>JSK Multi Web App</h1>
-                <input
-                    type="text"
-                        id="search"
-                            placeholder="Search Apps..."
-                              >
-                              </header>
+## Key features
+- Mobile-first responsive layout
+- Material-inspired UI patterns
+- Dark and light theme support
+- Progressive Web App ready
+- Pure HTML, CSS, and JavaScript
+- Clean folder architecture for scalability
 
-                              <div id="categories"></div>
-
-                              <main id="appContainer"></main>
-
-                              <script src="script.js"></script>
-
-                              </body>
-                              </html>
+## How to use
+1. Open `index.html` in a browser or a local server.
+2. Add app and category data in `data/apps.json` and `data/categories.json`.
+3. Extend UI components by editing CSS files inside `css/`.
+4. Add new pages under `pages/` and reference them from navigation.

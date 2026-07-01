@@ -1,0 +1,19 @@
+
+/* light.css - Light theme enhancements for readability */
+.theme-light body,
+.theme-light .app-shell,
+.theme-light .header,
+.theme-light .card,
+.theme-light .sidebar-card,
+.theme-light .bottom-nav,
+.theme-light .footer {
+    background: var(--surface-alt);
+    color: var(--text-primary);
+}
+
+.theme-light .search-input,
+.theme-light .button-secondary {
+    background: #ffffff;
+    border-color: var(--border);
+    color: var(--text-primary);
+}

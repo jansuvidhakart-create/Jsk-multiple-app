@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "Government Services",
+    "icon": "\ud83c\udfdb\ufe0f",
+    "description": "Official public services and citizen portals."
+  },
+  {
+    "id": 2,
+    "title": "Banking",
+    "icon": "\ud83c\udfe6",
+    "description": "Digital banking, payments and financial services."
+  },
+  {
+    "id": 3,
+    "title": "Education",
+    "icon": "\ud83c\udf93",
+    "description": "Courses, scholarships and student resources."
+  },
+  {
+    "id": 4,
+    "title": "Health",
+    "icon": "\ud83e\ude7a",
+    "description": "Healthcare access, insurance and telemedicine."
+  },
+  {
+    "id": 5,
+    "title": "Agriculture",
+    "icon": "\ud83c\udf3e",
+    "description": "Farming support, market data and subsidies."
+  },
+  {
+    "id": 6,
+    "title": "Utilities",
+    "icon": "\ud83d\udca1",
+    "description": "Manage bills, recharge and essential services."
+  },
+  {
+    "id": 7,
+    "title": "AI Tools",
+    "icon": "\ud83e\udd16",
+    "description": "Productivity helpers, chat and automation tools."
+  },
+  {
+    "id": 8,
+    "title": "Travel",
+    "icon": "\u2708\ufe0f",
+    "description": "Booking, tickets and travel planning."
+  },
+  {
+    "id": 9,
+    "title": "Commerce",
+    "icon": "🛒",
+    "description": "Buy, sell and manage marketplaces, stores and wholesale services."
+  },
+  {
+    "id": 10,
+    "title": "Beauty",
+    "icon": "💄",
+    "description": "Beauty parlour bookings, salon services and styling."
+  },
+  {
+    "id": 11,
+    "title": "Weddings",
+    "icon": "💒",
+    "description": "Marriage venues, planners and ceremony services."
+  },
+  {
+    "id": 12,
+    "title": "Food",
+    "icon": "🍽️",
+    "description": "Food ordering, delivery and restaurant services."
+  },
+  {
+    "id": 13,
+    "title": "Digital Services",
+    "icon": "💻",
+    "description": "Web development, online tools and digital service providers."
+  },
+  {
+    "id": 14,
+    "title": "Social Services",
+    "icon": "🤝",
+    "description": "NGO support, community initiatives and nonprofit services."
+  }
+]

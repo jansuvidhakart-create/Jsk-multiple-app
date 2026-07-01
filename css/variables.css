@@ -1,0 +1,36 @@
+
+/* variables.css - Design tokens for spacing, typography, and colors */
+:root {
+    --surface: #f7f8fc;
+    --surface-alt: #ffffff;
+    --primary: #1565c0;
+    --primary-variant: #0d47a1;
+    --secondary: #1e88e5;
+    --success: #2e7d32;
+    --warning: #f9a825;
+    --danger: #d32f2f;
+    --text-primary: #111827;
+    --text-secondary: #4b5563;
+    --text-muted: #6b7280;
+    --text-heading: #1f2937;
+    --border: rgba(15, 23, 42, 0.12);
+    --shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+    --radius: 22px;
+    --radius-sm: 14px;
+    --max-width: 1180px;
+    --grid-gap: 1rem;
+    --transition: 240ms ease-in-out;
+}
+
+.theme-dark {
+    --surface: #0f172a;
+    --surface-alt: #111827;
+    --primary: #60a5fa;
+    --secondary: #3b82f6;
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --text-muted: #94a3b8;
+    --text-heading: #e2e8f0;
+    --border: rgba(226, 232, 240, 0.12);
+    --shadow: 0 24px 60px rgba(15, 23, 42, 0.35);
+}

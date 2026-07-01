@@ -1,0 +1,40 @@
+
+/* header.css - App shell header and toolbar styling */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(255,255,255,0.96);
+    backdrop-filter: blur(18px);
+    border-bottom: 1px solid var(--border);
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+}
+
+.brand::before {
+    content: '📲';
+    display: inline-flex;
+    font-size: 1.25rem;
+}
+
+.search-bar {
+    flex: 1;
+    min-width: 0;
+}

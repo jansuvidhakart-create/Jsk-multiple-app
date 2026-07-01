@@ -1,0 +1,342 @@
+[
+  {
+    "id": 1,
+    "name": "Aadhaar Services",
+    "category": "Government Services",
+    "icon": "\ud83c\udd94",
+    "description": "Access Aadhaar updates, enrollment and verification.",
+    "url": "https://uidai.gov.in/",
+    "featured": true,
+    "version": "1.0"
+  },
+  {
+    "id": 2,
+    "name": "Digital Banking",
+    "category": "Banking",
+    "icon": "\ud83c\udfe6",
+    "description": "Open accounts, pay bills and view statements with ease.",
+    "url": "https://www.onlinesbi.sbi/",
+    "featured": true,
+    "version": "1.1"
+  },
+  {
+    "id": 3,
+    "name": "Scholarship Finder",
+    "category": "Education",
+    "icon": "\ud83c\udf93",
+    "description": "Browse scholarships, grants and student support programs.",
+    "url": "https://scholarships.gov.in/",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 4,
+    "name": "Health Checkup",
+    "category": "Health",
+    "icon": "\ud83e\ude7a",
+    "description": "Schedule telemedicine appointments and wellness services.",
+    "url": "https://health.gov.in/",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 5,
+    "name": "Farming Support",
+    "category": "Agriculture",
+    "icon": "\ud83c\udf3e",
+    "description": "Find crop guidance, subsidies and market price alerts.",
+    "url": "https://www.digitalindia.gov.in/",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 6,
+    "name": "Utility Bills",
+    "category": "Utilities",
+    "icon": "\ud83d\udca1",
+    "description": "Pay electricity, gas, water and municipal bills securely.",
+    "url": "https://www.billplz.com/",
+    "featured": true,
+    "version": "1.1"
+  },
+  {
+    "id": 7,
+    "name": "AI Assistant",
+    "category": "AI Tools",
+    "icon": "\ud83e\udd16",
+    "description": "Get instant answers, productivity tools and workflow automation.",
+    "url": "https://openai.com/",
+    "featured": false,
+    "version": "1.2"
+  },
+  {
+    "id": 8,
+    "name": "Business Support",
+    "category": "Business Services",
+    "icon": "\ud83d\udcca",
+    "description": "Register businesses, check compliance, and manage digital documentation.",
+    "url": "https://www.mygov.in/",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 9,
+    "name": "Travel Planner",
+    "category": "Travel",
+    "icon": "\u2708\ufe0f",
+    "description": "Plan trips, book tickets and monitor travel updates.",
+    "url": "https://www.indianrail.gov.in/",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 10,
+    "name": "Jobs Board",
+    "category": "Jobs",
+    "icon": "\ud83d\udcbc",
+    "description": "Search government and private job listings from one dashboard.",
+    "url": "https://www.ncs.gov.in/",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 11,
+    "name": "Marketplace",
+    "category": "Commerce",
+    "icon": "🛒",
+    "description": "Marketplace service",
+    "url": "https://www.google.com/search?q=Marketplace+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 12,
+    "name": "Website Development",
+    "category": "Digital Services",
+    "icon": "💻",
+    "description": "Website development service",
+    "url": "https://www.google.com/search?q=Website+Development+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 13,
+    "name": "Beauty Parlour Booking",
+    "category": "Beauty",
+    "icon": "💄",
+    "description": "Book beauty parlours, salons and styling services quickly.",
+    "url": "https://www.google.com/search?q=Beauty+Parlour+Booking+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 14,
+    "name": "Clinic Appointment",
+    "category": "Health",
+    "icon": "🏥",
+    "description": "Schedule doctor visits, consultations and clinic appointments.",
+    "url": "https://www.google.com/search?q=Clinic+Appointment+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 15,
+    "name": "Hospital Care",
+    "category": "Health",
+    "icon": "🩺",
+    "description": "Find hospitals, book care services and manage health visits.",
+    "url": "https://www.google.com/search?q=Hospital+Care+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 16,
+    "name": "Wholesale Market",
+    "category": "Commerce",
+    "icon": "🏬",
+    "description": "Browse wholesale suppliers, bulk deals and market pricing.",
+    "url": "https://www.google.com/search?q=Wholesale+Market+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 17,
+    "name": "Digital Service Hub",
+    "category": "Digital Services",
+    "icon": "💻",
+    "description": "Discover online digital services and freelance experts.",
+    "url": "https://www.google.com/search?q=Digital+Service+Hub",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 18,
+    "name": "AI Automation",
+    "category": "AI Tools",
+    "icon": "🤖",
+    "description": "Automate workflows, marketing and business tasks with AI.",
+    "url": "https://www.google.com/search?q=AI+Automation+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 19,
+    "name": "Health & Wellness",
+    "category": "Health",
+    "icon": "🌿",
+    "description": "Access wellness programs, fitness and preventive care services.",
+    "url": "https://www.google.com/search?q=Health+%26+Wellness+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 20,
+    "name": "NGO Support",
+    "category": "Social Services",
+    "icon": "🤝",
+    "description": "Connect with NGOs, donations, volunteering and community initiatives.",
+    "url": "https://www.google.com/search?q=NGO+Support+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 21,
+    "name": "Food Delivery",
+    "category": "Food",
+    "icon": "🚚",
+    "description": "Order meals, groceries and food delivery from local restaurants.",
+    "url": "https://www.google.com/search?q=Food+Delivery+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 22,
+    "name": "Affiliate Market",
+    "category": "Marketing",
+    "icon": "🔗",
+    "description": "Earn money with affiliate marketing and referral programs.",
+    "url": "https://www.google.com/search?q=Affiliate+Marketing+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 23,
+    "name": "Marriage Viewers",
+    "category": "Weddings",
+    "icon": "💒",
+    "description": "Explore marriage venues, planners and wedding showcase services.",
+    "url": "https://www.google.com/search?q=Marriage+Viewers+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 24,
+    "name": "PAN Card",
+    "category": "Government Services",
+    "icon": "📇",
+    "description": "Apply, update, and track PAN card services online.",
+    "url": "https://www.incometax.gov.in/iec/foportal",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 25,
+    "name": "GST Services",
+    "category": "Government Services",
+    "icon": "💰",
+    "description": "Register, file returns and manage GST compliance.",
+    "url": "https://www.gst.gov.in/",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 26,
+    "name": "Government Service Portal",
+    "category": "Government Services",
+    "icon": "🏛️",
+    "description": "Browse popular government service portals and citizen e-services.",
+    "url": "https://www.mygov.in/",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 27,
+    "name": "ITR Filing",
+    "category": "Government Services",
+    "icon": "🧾",
+    "description": "File income tax returns and view ITR status online.",
+    "url": "https://www.incometax.gov.in/iec/foportal",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 28,
+    "name": "Passport Services",
+    "category": "Government Services",
+    "icon": "🛂",
+    "description": "Apply for new passports, renewals and track passport status.",
+    "url": "https://portal2.passportindia.gov.in/",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 29,
+    "name": "EPF & ESI Services",
+    "category": "Government Services",
+    "icon": "🧾",
+    "description": "Manage provident fund and social insurance services.",
+    "url": "https://www.epfindia.gov.in/",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 30,
+    "name": "Insurance Services",
+    "category": "Government Services",
+    "icon": "🛡️",
+    "description": "Access insurance schemes, policies and claim support services.",
+    "url": "https://www.irda.gov.in/",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 31,
+    "name": "Business Registration",
+    "category": "Government Services",
+    "icon": "🏢",
+    "description": "Register businesses, apply for licenses and get official approvals.",
+    "url": "https://www.mca.gov.in/",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 32,
+    "name": "Ticket Booking",
+    "category": "Government Services",
+    "icon": "🎫",
+    "description": "Book train and government ticketing services quickly.",
+    "url": "https://www.irctc.co.in/",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 33,
+    "name": "Legal Consultant",
+    "category": "Government Services",
+    "icon": "⚖️",
+    "description": "Find legal aid resources, consultants and government advice services.",
+    "url": "https://www.nalsa.gov.in/",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 34,
+    "name": "Loan Processing",
+    "category": "Government Services",
+    "icon": "🏦",
+    "description": "Apply for government-backed loans and check processing updates.",
+    "url": "https://www.psbloansin59minutes.com/",
+    "featured": false,
+    "version": "1.0"
+  }
+]

@@ -198,5 +198,115 @@
     "url": "https://www.google.com/search?q=Real+Estate+service",
     "featured": false,
     "version": "1.0"
+  },
+  {
+    "id": 21,
+    "name": "Beauty Parlour Booking",
+    "category": "💄 Beauty",
+    "icon": "💄",
+    "description": "Book beauty parlours, salons and styling services quickly.",
+    "url": "https://www.google.com/search?q=Beauty+Parlour+Booking+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 22,
+    "name": "Clinic Appointment",
+    "category": "🏥 Health",
+    "icon": "🏥",
+    "description": "Schedule doctor visits, consultations and clinic appointments.",
+    "url": "https://www.google.com/search?q=Clinic+Appointment+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 23,
+    "name": "Hospital Care",
+    "category": "🏥 Health",
+    "icon": "🩺",
+    "description": "Find hospitals, book care services and manage health visits.",
+    "url": "https://www.google.com/search?q=Hospital+Care+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 24,
+    "name": "Wholesale Market",
+    "category": "🛒 Commerce",
+    "icon": "🏬",
+    "description": "Browse wholesale suppliers, bulk deals and market pricing.",
+    "url": "https://www.google.com/search?q=Wholesale+Market+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 25,
+    "name": "Digital Service Hub",
+    "category": "💻 Digital Services",
+    "icon": "💻",
+    "description": "Discover online digital services and freelance experts.",
+    "url": "https://www.google.com/search?q=Digital+Service+Hub",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 26,
+    "name": "AI Automation",
+    "category": "🤖 AI Tools",
+    "icon": "🤖",
+    "description": "Automate workflows, marketing and business tasks with AI.",
+    "url": "https://www.google.com/search?q=AI+Automation+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 27,
+    "name": "Health & Wellness",
+    "category": "🌿 Health",
+    "icon": "🌿",
+    "description": "Access wellness programs, fitness and preventive care services.",
+    "url": "https://www.google.com/search?q=Health+%26+Wellness+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 28,
+    "name": "NGO Support",
+    "category": "🤝 Social Services",
+    "icon": "🤝",
+    "description": "Connect with NGOs, donations, volunteering and community initiatives.",
+    "url": "https://www.google.com/search?q=NGO+Support+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 29,
+    "name": "Food Delivery",
+    "category": "🍽️ Food",
+    "icon": "🚚",
+    "description": "Order meals, groceries and food delivery from local restaurants.",
+    "url": "https://www.google.com/search?q=Food+Delivery+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 30,
+    "name": "Affiliate Market",
+    "category": "📈 Marketing",
+    "icon": "🔗",
+    "description": "Earn money with affiliate marketing and referral programs.",
+    "url": "https://www.google.com/search?q=Affiliate+Marketing+service",
+    "featured": false,
+    "version": "1.0"
+  },
+  {
+    "id": 31,
+    "name": "Marriage Viewers",
+    "category": "💒 Weddings",
+    "icon": "💒",
+    "description": "Explore marriage venues, planners and wedding showcase services.",
+    "url": "https://www.google.com/search?q=Marriage+Viewers+service",
+    "featured": false,
+    "version": "1.0"
   }
 ]

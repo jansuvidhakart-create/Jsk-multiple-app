@@ -1,0 +1,19 @@
+
+/* dark.css - Dark theme overrides for the PWA */
+.theme-dark body,
+.theme-dark .app-shell,
+.theme-dark .header,
+.theme-dark .card,
+.theme-dark .sidebar-card,
+.theme-dark .bottom-nav,
+.theme-dark .footer {
+    background: var(--surface);
+    color: var(--text-primary);
+}
+
+.theme-dark .search-input,
+.theme-dark .button-secondary {
+    background: #1f2937;
+    border-color: rgba(255,255,255,0.08);
+    color: #e2e8f0;
+}

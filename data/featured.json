@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "type": "app",
+    "name": "Aadhaar Services"
+  },
+  {
+    "id": 2,
+    "type": "app",
+    "name": "Digital Banking"
+  },
+  {
+    "id": 6,
+    "type": "app",
+    "name": "Utility Bills"
+  }
+]
