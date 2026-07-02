@@ -1,56 +1,143 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>JansuvidhaKart Digital Hub</title>
-    <meta name="description" content="A Progressive Web App to access government, banking, education, health and digital services.">
-    <link rel="manifest" href="./manifest.json">
-    <link rel="stylesheet" href="./css/home.css">
-    <meta name="theme-color" content="#1565c0">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="JansuvidhaKart Digital Hub">
-    <link rel="apple-touch-icon" href="./assets/icons/icon-192.svg">
-</head>
-<body class="theme-light">
-    <div class="app-shell">
-        <header class="header">
-            <div class="header-inner">
-                <div class="brand">JansuvidhaKart</div>
-                <button class="theme-toggle" type="button" onclick="window.location.reload();">Refresh</button>
-            </div>
-        </header>
-        <main class="main-content">
-            <section class="section page-header">
-                <div>
-                    <h1>JansuvidhaKart Digital Hub</h1>
-                    <p class="search-hint">Explore government services, banking, education, health, agriculture, travel and more from one responsive PWA.</p>
-                </div>
-            </section>
-            <section class="section">
-                <input id="searchInput" class="search-input" type="search" placeholder="Search services, categories or tools..." autocomplete="off">
-                <p class="search-hint">Use keywords like Aadhaar, loan, scholarship, health or recharge.</p>
-            </section>
-            <section class="section">
-                <div class="category-grid" id="categoryGrid"></div>
-            </section>
-            <section class="section">
-                <h2>Featured Services</h2>
-                <div id="searchResults" class="card-grid"></div>
-            </section>
-        </main>
-        <nav class="bottom-nav">
-            <button data-nav="home">Home</button>
-            <button data-nav="favorites">Favorites</button>
-            <button data-nav="recent">Recent</button>
-            <button data-nav="settings">Settings</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#060816" />
+    <meta
+      name="description"
+      content="NovaSphere is a premium multi-service app experience for e-commerce, delivery, automation, real estate, jobs, wellness, and more."
+    />
+    <title>NovaSphere | Premium Multi-Service App</title>
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="/assets/icon.svg" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="background-orb orb-one"></div>
+    <div class="background-orb orb-two"></div>
+
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#home">
+          <img src="/assets/icon.svg" alt="NovaSphere icon" />
+          <span>NovaSphere</span>
+        </a>
+        <button class="menu-toggle" aria-label="Open menu">☰</button>
+        <nav class="nav-links" id="navLinks">
+          <a href="#services">Categories</a>
+          <a href="#showcase">Why Us</a>
+          <a href="#contact">Contact</a>
         </nav>
-        <footer class="footer">
-            <p>Digital services hub built as a lightweight PWA with clean folder architecture.</p>
-        </footer>
+      </header>
+
+      <main id="home">
+        <section class="hero">
+          <div class="hero-copy">
+            <div class="badge-row">
+              <span class="badge">Premium digital ecosystem</span>
+              <span class="badge badge-accent">AI-ready experience</span>
+            </div>
+            <h1>Build a luxury multi-service app that feels elite and performs flawlessly.</h1>
+            <p class="hero-text">
+              From e-commerce and food delivery to real estate, healthcare, jobs, and automation,
+              NovaSphere brings every major vertical into one polished, conversion-ready experience.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#services">Explore Categories</a>
+              <a class="btn btn-secondary" href="#contact">Book a Demo</a>
+            </div>
+            <div class="hero-stats">
+              <div>
+                <strong>12+</strong>
+                <span>Service verticals</span>
+              </div>
+              <div>
+                <strong>24/7</strong>
+                <span>Smart support</span>
+              </div>
+              <div>
+                <strong>100%</strong>
+                <span>Premium polish</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="phone-card">
+              <div class="phone-top">
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+              </div>
+              <div class="phone-screen">
+                <div class="screen-card screen-main">
+                  <p>Live demand</p>
+                  <h3>+38% growth</h3>
+                  <span>Across all services</span>
+                </div>
+                <div class="screen-grid">
+                  <div class="mini-card">AI Automation</div>
+                  <div class="mini-card">Fast Booking</div>
+                  <div class="mini-card">Secure Payments</div>
+                  <div class="mini-card">Instant Support</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="search-panel">
+          <label class="search-box" for="serviceSearch">
+            <span>🔎</span>
+            <input id="serviceSearch" type="text" placeholder="Search a category, feature, or service" />
+          </label>
+        </section>
+
+        <section id="services" class="section-block">
+          <div class="section-heading">
+            <p class="eyebrow">Featured categories</p>
+            <h2>Everything your users can discover, compare, and book in one place.</h2>
+          </div>
+          <div id="serviceGrid" class="service-grid"></div>
+        </section>
+
+        <section id="showcase" class="section-block showcase-grid">
+          <article class="showcase-card">
+            <h3>Luxury experience</h3>
+            <p>Immersive gradients, premium spacing, and polished motion make every interaction feel elevated.</p>
+          </article>
+          <article class="showcase-card">
+            <h3>Smart user flow</h3>
+            <p>Users can search instantly, browse service verticals, and move from interest to action without friction.</p>
+          </article>
+          <article class="showcase-card">
+            <h3>Built for scale</h3>
+            <p>Designed to expand into real products, agencies, booking systems, marketplaces, and digital platforms.</p>
+          </article>
+        </section>
+
+        <section class="section-block contact-card" id="contact">
+          <div>
+            <p class="eyebrow">Launch ready</p>
+            <h2>Turn your idea into a premium digital platform.</h2>
+            <p>
+              Whether you want a marketplace, booking engine, service app, or full business ecosystem,
+              this experience is ready to be shaped into your brand.
+            </p>
+          </div>
+          <form id="demoForm" class="demo-form">
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit">Request Demo</button>
+            <p id="formMessage" class="form-message"></p>
+          </form>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>NovaSphere © 2026 • Premium multipurpose digital experience</p>
+        <a class="btn btn-secondary" href="mailto:hello@novasphere.app">Contact Us</a>
+      </footer>
     </div>
-    <script type="module" src="./js/app.js"></script>
-</body>
+
+    <script src="/app.js"></script>
+  </body>
 </html>
